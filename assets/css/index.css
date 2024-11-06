@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto";
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.logo{
+
+    color: #1565C0;
+    font-size: 24px;
+    font-family: "Mukta";
+    font-weight: 700;
+    font-style: normal;
+    padding: 10px;
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    float: left;
+    display: block;
+    padding: 10px;
+    font-family: "Mukta";
+    font-weight: 400;
+    font-size: 20px;
+    color: #474747;
+}
+
+.searchBar{
+    padding: 6px;
+    border-color: #DFDFDF;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    font-family: "Mukta";
+}
+
+.searchBar:onClick {
+    border-color: #474747;
+    border-width: 1px;
+
+}
+
+
+.shopping-bag{
+    padding-left: 15px;
+    padding-right: 15px;
+    border-color: #DFDFDF;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+}
+
+.shopping-bag img {
+    width: 20px;
+    height: 20px;
+}
+
+.shopping-bag span {
+    font-size: 16px;
+    font-family: "Mukta";
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+
